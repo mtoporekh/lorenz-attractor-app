@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-st.image("lorenz.png", use_column_width= True)
+st.image("lorenz.png", use_container_width=True)
 
 def lorenz(x, y, z, s, r, b):
     dx = s * (y - x)
