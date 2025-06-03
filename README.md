@@ -24,3 +24,10 @@ This interactive application allows you to visualize the famous **Lorenz attract
 1. Adjust the values in the sidebar.
 2. Observe how the system's trajectory changes.
 3. Interpret the result to reflect on your team's state.
+
+## 🚀 Try the app directly here (spanish version)
+https://lorenz-attractor-app.streamlit.app/
+
+
+
+   
