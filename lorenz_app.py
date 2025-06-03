@@ -55,7 +55,7 @@ def lorenz(x, y, z, s, r, b):
 st.title("Simulación del Atractor de Lorenz")
 
 st.sidebar.header("Parámetros")
-sigma = st.sidebar.slider("Sigma (σ)", 0.0, 50.0, 10.0)
+sigma = st.sidebar.slider("Sigma (σ)", 0.0, 30.0, 10.0)
 rho = st.sidebar.slider("Rho (ρ)", 0.0, 50.0, 28.0)
 beta = st.sidebar.slider("Beta (β)", 0.0, 10.0, 8/3)
 
