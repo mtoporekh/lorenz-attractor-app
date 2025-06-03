@@ -24,6 +24,26 @@ Esta aplicación interactiva permite visualizar el famoso **atractor de Lorenz**
 ### 🧠 Inspirado en:
 - El modelo de Edward Lorenz (1963)
 - Aplicaciones organizacionales de Marcial Losada y Emily Heaphy sobre dinámica de equipos y meta-aprendizaje.
+
+### 🧠 Interpretación de los parámetros:
+###         Sigma - Positividad
+   Representa la rapidez con la que un equipo responde emocionalmente a las interacciones.
+   - Valores bajos (2 - 5): Respuesta lenta o poca energía.
+   - Valores medios (8 - 12): Respuesta emocional saludable.
+   - Valores altos (15 - 30): Muy entusiasta, pero puede ser inestable.
+
+###         Rho - Conectividad
+   Representa el nivel de apertura y complejidad de las interacciones dentro del equipo.
+   - Valores bajos (5 - 15): Equipo cerrado, poca colaboración.
+   - Valores medios (20 - 30): Buena conectividad, comunicación fluida.
+   - Valores altos (35 - 50): Muy abiertos y creativos, pero pueden volverse caóticos.
+
+###         Beta - Negatividad
+   Representa la tasa de pérdida de energía o motivación en el sistema.
+   - Valores bajos (1 - 2): Retiene energía, pero puede acumular tensión.
+   - Valores medios (2.5 - 3.5): Equilibrio entre crítica constructiva y motivación.
+   - Valores altos (4 - 6): Pierde energía rápidamente, puede llevar a bajo desempeño.
+
 """)
 
 def lorenz(x, y, z, s, r, b):
