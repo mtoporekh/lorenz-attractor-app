@@ -43,9 +43,8 @@ Esta aplicación interactiva permite visualizar el famoso **atractor de Lorenz**
    - Valores bajos (1 - 2): Retiene energía, pero puede acumular tensión.
    - Valores medios (2.5 - 3.5): Equilibrio entre crítica constructiva y motivación.
    - Valores altos (4 - 6): Pierde energía rápidamente, puede llevar a bajo desempeño.
----
-*Desarrollado con el apoyo de Microsoft Copilot, una IA basada en GPT-4.*
 """)
+
 def lorenz(x, y, z, s, r, b):
     dx = s * (y - x)
     dy = x * (r - z) - y
@@ -87,3 +86,7 @@ ax.set_title("Atractor de Lorenz")
 
 st.pyplot(fig)
 
+st.markdown("""
+---
+*Desarrollado con el apoyo de Microsoft Copilot, una IA basada en GPT-4.*
+""")
