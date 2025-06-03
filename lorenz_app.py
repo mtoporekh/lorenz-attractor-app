@@ -86,3 +86,9 @@ ax.set_zlabel("Z")
 ax.set_title("Atractor de Lorenz")
 
 st.pyplot(fig)
+
+st.markdown("""
+---
+*Desarrollado con el apoyo de Microsoft Copilot, una IA basada en GPT-4.*
+""")
+
