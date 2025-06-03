@@ -5,6 +5,27 @@ from mpl_toolkits.mplot3d import Axes3D
 
 st.image("lorenz.png", use_container_width=True)
 
+st.markdown("""
+# Bienvenido al Simulador del Atractor de Lorenz
+
+Esta aplicación interactiva permite visualizar el famoso **atractor de Lorenz** y explorar cómo sus parámetros pueden interpretarse en el contexto del **desempeño de equipos**.
+
+### 🎯 ¿Qué puedes hacer con esta app?
+
+- Ajustar los parámetros del sistema de Lorenz:
+  - **Sigma (σ)**: Positividad emocional del equipo.
+  - **Rho (ρ)**: Nivel de conectividad y colaboración.
+  - **Beta (β)**: Presencia de emociones negativas o pérdida de energía.
+- Observar cómo estos valores afectan la dinámica del equipo:
+  - Bajo desempeño (atractor de punto)
+  - Desempeño medio (ciclo límite)
+  - Alto desempeño (atractor caótico)
+
+### 🧠 Inspirado en:
+- El modelo de Edward Lorenz (1963)
+- Aplicaciones organizacionales de Marcial Losada y Emily Heaphy sobre dinámica de equipos y meta-aprendizaje.
+""")
+
 def lorenz(x, y, z, s, r, b):
     dx = s * (y - x)
     dy = x * (r - z) - y
